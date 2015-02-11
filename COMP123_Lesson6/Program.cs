@@ -10,6 +10,7 @@ namespace COMP123_Lesson6
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
