@@ -10,7 +10,24 @@ namespace COMP123_Lesson6
     {
         static void Main(string[] args)
         {
+          
+            Deck myDeck = new Deck();
+
+
+            Console.WriteLine(myDeck.pickCard(0));
+         
+           
+
+            waitForAnyKey();
 
         }
+            private static void waitForAnyKey()
+            {
+            Console.Write("\n");
+            Console.WriteLine("+++++++++++++++++++++++++++++");
+            Console.WriteLine("Pleace hit any key to exit...");
+            Console.ReadKey();
+            }
+        }
     }
-}
+
